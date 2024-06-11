@@ -1,4 +1,4 @@
-
+import Button from '@mui/material/Button';
 export const RevenueCard = ({title, orderCount, amount}) => {
     return <div className="bg-white rounded shadow-md p-4">
             <div className="text-gray-700 flex justify-center flex-col">
@@ -31,6 +31,9 @@ export const RevenueCard = ({title, orderCount, amount}) => {
                 </div>
                 </div> : null}
             </div>
+            {/* Material UI */}
+            <Button variant="contained">Contained</Button>
+
         </div>
 }
 
